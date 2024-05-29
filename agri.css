@@ -1,0 +1,662 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat;
+}
+/*  header section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+ width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: blue;
+
+}
+#menu{
+    display: none;
+}
+.header ul{
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+    list-style: none;
+    align-items: center;
+}
+.loginbtn{
+    background-color:  black;
+    font-size: 28px ;
+    color: white;
+    padding: 14px 50px;
+    border: none;
+    border-radius: 8px ;
+}
+.signbtn{
+
+    font-size: 28px ;
+    color: white;
+    padding: 12px  30px;
+    color: blue;
+font-size: 28px;
+    border-radius: 8px ;
+    border: 2px black solid;
+    margin-right: 100px;
+}
+
+
+/* hero section */
+.hero{
+    height: 550px;
+   
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(https://img.freepik.com/free-photo/strawberry-field_1203-7581.jpg?t=st=1715408457~exp=1715412057~hmac=e233ce2c2b20d9d960e097e9e27f7060937510ab21bc6dff824b9c1b90e4d3aa&w=740);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+ color: white;
+
+  
+}
+.hero h1{
+  padding-top: 100px;
+  font-size: 90px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.hero p{
+     margin-bottom: 40px;
+}
+#learn{
+background-color: transparent;
+color: white;
+border: 2px white solid ;
+
+
+}
+
+/*  hero2 section or passion section */
+.passion-left,.passion-right{
+    width: 500px;
+}
+.passion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 100px;
+   
+
+    
+}
+.passion-right{
+    position: relative;
+}
+.passion-right img{
+height: 550px;
+width: 500px;
+border-radius: 20px;
+position: relative;
+}
+.passion-left h1{
+    font-size: 65px;
+  
+}
+#btn{
+    margin-top: 20px;
+}
+.passion-left{
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 6px;
+
+}
+.passion-right{
+    /* position: relative; */
+}
+.passion-right button{
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+    width: 200px;
+    padding: 10px ;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+ 
+}
+
+/*  service  section */
+.service1{
+    width: 280px;
+    height: 280px;
+    background-color: blue;
+    text-align: center;
+    /* margin: 18px; */
+    border-radius: 22px;
+    color: white;
+}
+.service-parent{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.service p{
+    text-align: center;
+    font-size: 28px;
+    padding: 60px;
+}
+
+/*  product section */
+.product h1{
+    font-size: 60px;
+    text-align: center;
+}
+.product p{
+    text-align: center;
+}
+.product-parent{
+    display: grid;
+    grid-template-columns: repeat(4 , 280px);
+    column-gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+ 
+
+}
+.product1{
+    width: 100%;
+    height: 500px;
+    margin: 18px;
+    background-color: blueviolet;
+    border-radius: 22px;
+ text-align: center;
+ color: white;
+ 
+}
+.product1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding-top: 15px;
+}
+.product1 h1{
+    padding: 20px;
+    font-size: 26px;
+}
+.product1 p {
+    line-height: 25px;
+}
+
+/* sustain part */
+
+.sustain{
+ 
+    height: 470px;
+background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)) , url(https://img.freepik.com/free-photo/strawberry-field_1203-7581.jpg?t=st=1715408457~exp=1715412057~hmac=e233ce2c2b20d9d960e097e9e27f7060937510ab21bc6dff824b9c1b90e4d3aa&w=740);
+    background-repeat: no-repeat;
+    background-size: 100% 470px ;
+    padding: 40px;
+    
+}
+.sustain h1{
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+/*  benefit starst here  */
+.benefit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftbenifit{
+    width: 480px;
+    margin-top: 100px;
+
+}
+.leftbenifit p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.leftbenifit span {
+    color: blueviolet;
+}
+.leftbenifit h1{
+    font-size: 70px;
+    color: blue;
+}
+.rightbenefit{
+width:  500px;
+height: 600px;
+background-color: brown;
+border-radius: 20px;
+}
+.icon-parent{
+    display: flex;
+    align-items: center;
+  margin-left: 50px;
+  margin-top: 30px;
+  gap: 60px;
+  color: white;
+
+}
+
+.icon-parent img{
+    width: 70px;
+    height: 70px;
+}
+.icon-parent h1{
+    margin-top: 20px;
+    font-size: 50px;}
+
+
+
+    .review-parent{
+        display: grid;
+        grid-template-columns: 80px 800px 80px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 2px;
+    }
+
+   .review-left{
+width: 80px;
+height: 80px;
+background-color: red;
+border-radius: 50%;
+
+   }
+
+   .review-left i{
+    font-size: 80px;
+    padding: 0px 15px;
+    color: white;
+   }
+  .review-right{
+    width: 80px;
+height: 80px;
+background-color: red;
+border-radius: 50%;
+
+   }
+   .review-right i{
+    font-size: 80px;
+    padding: 0px 15px;
+    color: white;
+   }
+   .review-center{
+width:800px ;
+height: 350px;
+background-color: green;
+border-radius: 12px;
+    
+   }
+   .comment-parent  img{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+   }
+   .comment-parent{
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin: 50px;
+   }
+   .comment-parent i{
+    font-size: 30px;
+    padding: 10px ;
+    color: yellow;
+    margin-bottom: 15px;
+   }
+   .comment-parent h1{
+    margin-bottom: 10px;
+    padding: 10px ;
+   }
+
+
+
+
+    
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(3, 430px);
+        column-gap: 50px;
+        margin: 50px 100px;
+    
+    
+    }
+    
+    
+    .section2-left img {
+        width: 100%;
+        height: 430px;
+        border-radius: 22px;
+    }
+    
+    .section2-left h1 {
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31.99px;
+        text-align: left;
+        margin-top: 10px;
+    
+    
+    }
+    
+    .section2-left p {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 10px;
+        color: #666666;
+        margin-bottom: 10px;
+    
+    
+    
+    }
+    
+    .Last {
+        height: 500px;
+        background-color: #204E51;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+    }
+    
+    .Last-left {
+    
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        width: 350px;
+        height: 140px;
+    }
+    
+    .Last-left h1 {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.88px;
+        text-align: left;
+        margin-bottom: 18px;
+    
+    
+    }
+    .Last-left i{
+        width: 50px;
+    height: 40px;
+    top: 7521px;
+    left: 145px;
+    border-radius: 5px ;
+    font-size: 26px;
+    
+    
+    }
+    
+    .Last-left p {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 18px;
+        font-weight: 400px;
+        text-align: left;
+        color: #fff;
+        margin-bottom: 10px;
+    
+    
+    
+    }
+    .Last-right{
+        width: 116px;
+    height: 222px;
+    top: 7357px;
+    left: 1095px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    line-height: 45px;
+    
+    }
+
+    @media screen and (max-width:600px) {
+        .header ul{
+            display: none;
+        }
+ 
+        .btn{
+            display: none;
+        }
+        #menu{
+            display: block;
+            font-size: 50px;
+            margin-right: 40px;
+        }
+        .header{
+            padding: 15px;
+        }
+        .header h1{
+            font-size: 35px;
+        }
+        .hero h1{
+            font-size: 24px;
+           padding-bottom: 30px;
+        }
+        #getbtn{
+            margin-bottom: 20px;
+          
+            padding:  18px 55px;
+        }
+        #learn{
+            margin-left: 40px;
+        }
+
+        .passion-left h1{
+            font-size: 20px;
+            padding: 20px;
+           
+        }
+        .passion{
+            flex-direction: column;
+            margin: 20px;
+            text-align: center;
+        }
+        .passion-left, .passion-right{
+            width: 300px;
+            text-align: center;
+        }
+        .passion-right img{
+            width: 300px;
+            height: 300px;
+            margin-top: 30px;
+        }
+        .passion-right button{
+            position: absolute;
+            bottom: 0;
+         /* right: 80px; */
+         margin-right: 100px;
+            width: 160px;
+            padding: 10px ;
+            background-color: blue;
+            border: none;
+            color: white;
+            font-size: 12px;
+            height: 50px;
+            left:200px;
+         
+        }
+        .service p{
+            text-align: justify;
+            margin: 50px 18px;
+            font-size: 20px;
+        }
+        .service-parent{
+            flex-direction: column;
+            margin-left: 30px;
+        }
+        .product h1{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .product-parent{
+           grid-template-columns: 300px;
+           margin: 12px;
+           row-gap: 40px;
+           
+        }
+        .product1{
+            margin: 0;
+        }
+        .sustain h1{
+            font-size: 30px;
+        }
+        .benefit{
+            flex-direction: column;
+        }
+        .leftbenifit h1{
+            font-size: 40px;
+            margin: 15px;
+        }
+        .leftbenifit{
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .leftbenifit p{
+            font-size: 18px;
+        }
+        .loginbtn{
+            font-size: 20px;
+        }
+        .signbtn{
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+
+        }
+        .rightbenefit{
+            width:  350px;
+            height: 600px;
+            background-color: brown;
+            border-radius: 20px;
+            margin: 16px;
+            }
+            .more{
+                margin-left: 20px;
+            }
+/*  review section */
+            .review-left{
+                width: 100%;
+                height: 30px;
+            }
+            .review-right{
+                width: 100%;
+                height: 30px;
+               
+            }
+            .review-center{
+                width:100%;
+                height: 180px;
+            }
+            .comment-parent img{
+                height: 100px;
+                width: 100px;
+                border-radius: 4px;
+                margin-top: 15px;
+            }
+            .comment-parent i{
+                font-size: 12px;
+                padding: 0px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+
+            }
+            .comment-parent{
+                padding: 0px;
+                margin: 4px;
+                gap:8px;
+           
+            }
+            .comment-parent h1{
+                font-size: 15px;
+            }
+            .comment-parent p{
+                padding-top: 8px;
+                font-size: 8px;
+            }
+            .review-parent{
+                gap: 20px;
+                justify-content: start;
+                grid-template-columns: 30px  280px 30px ;
+
+            }
+            .Testimonials-div {
+           margin: 100px;
+                width: 400px;
+                height: 500px;
+           flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-right: 40px;
+            }
+            .Testimonials-div img {
+                width: 150px;
+                height: 190px;
+                top: 5582px;
+                left: 319px;
+                gap: 0px;
+                border-radius: 20px;
+              margin-left: 40px;
+            
+            
+            }
+/* 
+            blog section */
+            .Testimonials{
+                text-align: center;
+            }
+            .section2{
+                grid-template-columns: 400px;
+                row-gap: 50px;
+                margin: 18px;
+                text-align: left;
+               
+            }
+              .section2-left img {
+        width: 300px;
+        height: 400px;
+        border-radius: 22px;
+    }
+    .section2-left{
+        font-size: 15px;
+    }
+    .section2-left p{
+        text-align: justify;
+       margin-left: 12px;
+    }
+    /* last section */
+    .Last-left h1{
+        font-size: 18px;
+    }
+     .Last {
+        flex-direction: column;
+     }
+     
+    }
